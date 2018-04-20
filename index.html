@@ -1,0 +1,85 @@
+<!DOCTYPE html>  <!--Indica tipo de HTML que utilizamos --> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Juego de Trivia</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"> ? <!--Enlazamos el CSS llamado Style --> 
+	<link rel="stylesheet" href="fuentes/font.css"> <!-- Enlazamos el CSS llamado CSS -->
+	<link rel="stylesheet" type="text/css" href="iconos/css/lobster.css"><!-- Enlazamos todos los iconos utilizados en la web --> 
+	
+</head>
+<body>
+
+	<div class="Main">
+
+		<h2>Preguntados</h2><!-- Encabezado --> 
+
+		<div id="first">  <!-- Dentro de la etiqueta DIV declaramos el selector ID -->
+			<i class="icon-user-outline"></i> <!-- Enlazamos icono de usuario -->
+			<span>Bienvenido</span> <span id="welcome">NickName</span><!-- Encabezado de bienvenida que acompaña el nombre del usuario --> 
+
+		</div>
+
+	</div>
+
+	<div id="Logo"> <!-- Dentro de la etiqueta DIV declaramos el selector ID -->
+		<img src="imagenes/LOGO.jpg"> <!-- Enlazamos el la imagen de Trivial que se muestra -->			
+	</div>
+
+	<div id="boxM"> <!-- Dentro de la etiqueta DIV declaramos el selector ID boxM, que sera el box que contendrá todas las respuestas correctas e incorrectas -->
+		<span id=finalM> </span> 
+
+		<div id="correctAns"> <!-- Dentro de la etiqueta DIV declaramos el selector ID CorrectAns que contendrá RESPUESTAS CORRECTAS-->
+
+			<div class="second">  <!-- Dentro de la etiqueta DIV declaramos el selector CLASE **-->
+
+				<i class="icon-ok-circled"></i>  <!-- Enlazamos el icono de respuesta correcta -->
+				<span>RESPUESTAS CORRECTAS</span>
+
+			</div>
+
+			<div id="cuerpoC">  <!-- Dentro de la etiqueta DIV declaramos el selector ID  -->
+				<!--Colocamos la etiqueta  SPAN donde se mostrará nuestro resultado de la trivia . Utilizamos las etiquetas de linea: STRONG 
+				(para dar enfasis el la frase)y BR (para dar el salto de la linea). Para cada pregunta y respuesta asignamos un selector de ID-->
+				<strong><span id="preg1"></span></strong><br>  
+				<span id="result1"></span><br>
+				<strong><span id="preg2"></span><br>
+				<span id="result2"></span><br>
+				<strong><span id="preg3"></span></strong><br>
+				<span id="result3"></span>
+
+			</div>
+
+		</div>
+
+		<div id="incorrectAns"> <!-- Dentro de la etiqueta DIV declaramos el selector ID IncorrectAns, que contendra las RESPUESTAS INCORRECTAS-->
+
+			<div class="second"> <!-- ** Utilizamos El selestor de clase SECOND-->
+
+				<i class="icon-cancel-circled"></i><!-- Enlazamos el icono de respuesta Incorrecta -->
+				<span>RESPUESTAS INCORRECTAS</span>
+
+			</div>
+
+			<div id="cuerpoI"><!-- Declaramos el ID de selector: cuerpoI-->
+				<!--Colocamos la etiqueta  SPAN donde se mostrará nuestro resultado de la trivia , para  . Utilizamos las etiquetas de linea: STRONG 
+				(para dar enfasis el la frase)y BR (para dar el salto de la linea). Para cada pregunta y respuesta asignamos un selector de ID-->
+				<strong><span id="quest1"></span></strong><br> 
+				<span id="ans1"></span><br>
+				<strong><span id="quest2"></span></strong><br>
+				<span id="ans2"></span><br>
+				<strong><span id="quest3"></span></strong><br>
+				<span id="ans3"></span>
+				
+			</div>
+
+		</div>
+
+	</div>
+	
+	<h5>¡Disfruta de una manera diferente!</h5> <!-- Es una frase que quedará fija en la web-->
+		
+	<script type="text/javascript" src="app.js"></script> <!-- Enlazamos el archivo de JavaScript al HTML-->
+</body>
+</html>

@@ -1,0 +1,19 @@
+@font-face{
+	font-family:"Lobster-Regular";
+	src: url(../fuentes/Lobster-Regular.ttf);
+}
+
+@font-face{
+	font-family:"Raleway-Regular";
+	src: url(../fuentes/Raleway-Regular.ttf);
+}
+
+@font-face{
+	font-family:"Raleway-Black";
+	src: url(../fuentes/Raleway-Black.ttf);
+}
+
+@font-face{
+	font-family:"Raleway-Bold";
+	src: url(../fuentes/Raleway-Bold.ttf);
+}

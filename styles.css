@@ -1,0 +1,125 @@
+*{
+	margin: 5px;
+	padding: 0;
+}
+/*----------Estilo de div principal----------*/
+.Main{
+
+	background: #ffcc00;
+	height: 50px;
+	border-radius: 5px;
+	border-style: double;
+
+}
+
+h2{
+
+	display: inline-block;
+	position: relative;
+	font-family: "Raleway-Bold";
+	top: 9px;
+	left: 15px;
+	color: white;
+	
+}
+
+#first {
+	display: inline-block;
+	position: absolute;
+	right: 30px;
+	height: 39px;
+	padding-top: 2px;
+}
+
+i{
+	font-size: 30px;
+	margin: 0px;
+}
+
+#first span{
+	display: inline-block;
+	font-family: "Raleway-Bold";
+	color: white;
+	font-size: 32px;
+	margin: 0px;
+}
+
+/*----------Estilo del LOGO----------*/
+
+img{
+	width: 300px;
+	height: 100px;
+	margin: 35px 0px 0px 70px;
+}
+
+/*----------Estilo del LOGO----------*/
+
+#finalM{
+	font-size: 50px;
+	font-family: "Lobster-Regular";
+	position: relative;
+	left: 400px;
+	top: 100px;
+}
+
+#correctAns{
+	position: relative;
+	display: inline-block;
+	left: 280px;
+	width: 380px;
+	height: 200px;
+	margin-top: 20px;
+	border-right: 2px solid;
+}
+
+.icon-ok-circled{
+	margin:0px;
+	font-size: 30px;
+}
+
+.second {
+	border-bottom: 2px solid;
+}
+
+.second span{
+	display: inline-block;
+	margin: 0px;
+	font-size: 23px;
+	font-family: "Raleway-Bold";
+}
+
+#incorrectAns{
+	position: absolute;
+	display: inline-block;
+	right: 280px;
+	width: 380px;
+	height: 200px;
+	margin-top: 20px;
+	border-left: 2px solid;
+}
+
+.icon-cancel-circled{
+	margin:0px;
+	font-size: 30px;
+}
+
+#cuerpoC span{
+	margin-top: 35px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+#cuerpoI span{
+	margin-top: 15px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+h5{
+	position: absolute;
+	display: inline-block;
+	top:550px;
+	font-size: 30px;
+	left:750px;
+}
+
